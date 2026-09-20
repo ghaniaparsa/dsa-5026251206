@@ -1,3 +1,5 @@
+package prelab;
+
 public class Monoprint extends Printjob {
 
     public Monoprint(String id, int pages) {
@@ -7,10 +9,5 @@ public class Monoprint extends Printjob {
     @Override
     public int calculateCharge() {
         return getPages() * 500;
-    }
-
-    @Override
-    public String label() {
-        return "Mono";
     }
 }

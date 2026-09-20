@@ -1,4 +1,6 @@
-public class Colorprint extends PrintJob {
+package prelab;
+
+public class Colorprint extends Printjob {
 
     public Colorprint(String id, int pages) {
         super(id, pages);
@@ -14,10 +16,5 @@ public class Colorprint extends PrintJob {
             baseCharge = (1500 * 10) + ((pages - 10) * 1000);
         }
         return baseCharge + 2000;
-    }
-
-    @Override
-    public String label() {
-        return "Color";
     }
 }

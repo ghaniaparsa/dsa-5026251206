@@ -1,4 +1,4 @@
-package prelab;
+package lw01.prelab;
 
 import java.io.File;
 import java.util.ArrayList;

@@ -7,6 +7,8 @@ public class Main {
         int r = sc.nextInt();
 
         Rental[] list = new Rental[r];
+        
+        
         for(int i = 0; i < r; i++){
             String type = sc.next();
             String id = sc.next();

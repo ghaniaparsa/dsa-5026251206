@@ -27,6 +27,7 @@ public class Main {
         }
         for(int vall : val){
         
+            
             System.out.print(vall + " ");
         }
              System.out.println();

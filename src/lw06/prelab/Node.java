@@ -1,4 +1,4 @@
-package lw06;
+package lw06.prelab;
 
 class Node {
   Node right, left;
